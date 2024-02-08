@@ -40,44 +40,44 @@ public class Product {
  class XYZ {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        try (Scanner scanner = new Scanner(System.in)) {
+            HashMap<Integer, Product> productInfo = new HashMap<>();
 
-        HashMap<Integer, Product> productInfo = new HashMap<>();
+            for (int i = 1; i <= 5; i++) {
+                System.out.println("**** Product " + i + " Details ****");
+                System.out.println("Enter product ID:");
+                int pid = scanner.nextInt();
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("**** Product " + i + " Details ****");
-            System.out.println("Enter product ID:");
-            int pid = scanner.nextInt();
+                System.out.println("Enter product price:");
+                double price = scanner.nextDouble();
 
-            System.out.println("Enter product price:");
-            double price = scanner.nextDouble();
+                System.out.println("Enter product quantity:");
+                int quantity = scanner.nextInt();
 
-            System.out.println("Enter product quantity:");
-            int quantity = scanner.nextInt();
+                Product product = new Product(pid, price, quantity);
 
-            Product product = new Product(pid, price, quantity);
-
-            productInfo.put(pid, product);
-        }
-
-        System.out.println("Highest Price Product : ");
-        int tempPid = 0;
-        double tempPrice = 0;
-        for (int id : productInfo.keySet()) {
-            Product product = productInfo.get(id);
-            if(tempPrice < product.getPrice()) {
-                tempPrice = product.getPrice();
-                tempPid = product.getPid();
+                productInfo.put(pid, product);
             }
-        }
-        for (int id : productInfo.keySet()) {
-            Product product = productInfo.get(id);
-            if(tempPid == product.getPid()) {
-                System.out.print("ID: " + product.getPid() + " Price: " + product.getPrice() + " Quantity: " + product.getQuantity());
-                System.out.println();
+
+            System.out.println("Highest Price Product : ");
+            int tempPid = 0;
+            double tempPrice = 0;
+            for (int id : productInfo.keySet()) {
+                Product product = productInfo.get(id);
+                if(tempPrice < product.getPrice()) {
+                    tempPrice = product.getPrice();
+                    tempPid = product.getPid();
+                }
             }
+            for (int id : productInfo.keySet()) {
+                Product product = productInfo.get(id);
+                if(tempPid == product.getPid()) {
+                    System.out.print("ID: " + product.getPid() + " Price: " + product.getPrice() + " Quantity: " + product.getQuantity());
+                    System.out.println();
+                }
+            }
+            totalAmountOfAproduct(productInfo);
         }
-        totalAmountOfAproduct(productInfo);
     }
 
     private static void totalAmountOfAproduct(HashMap<Integer, Product> productInfo) {

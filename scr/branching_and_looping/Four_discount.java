@@ -1,3 +1,5 @@
+package branching_and_looping;
+
 public class Four_discount
 {
     public static void main(String[] args) {
@@ -13,7 +15,7 @@ public class Four_discount
             int finalAmount = amount - discountAmount;
             System.out.print(finalAmount);
         }else{
-            System.out.print(amount + "test");
+            System.out.print(amount);
         }
     }
 }

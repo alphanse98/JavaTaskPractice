@@ -1,3 +1,5 @@
+package branching_and_looping;
+
 public class Trhee_smallestNumber
 {
     public static void main(String[] args) {
