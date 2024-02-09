@@ -16,7 +16,7 @@ public class Books {
     }
 }
 
- class Library extends Books {
+ class Library extends Books {//test
 
     public static ArrayList<Object> BooksList = new ArrayList<Object>();
 
@@ -27,6 +27,7 @@ public class Books {
         addBook(3, "book three", "guru", true);
 
         removeBook(2);
+        displayBook();
     }
 
     // addBook create new book object then push in to new bookList array
