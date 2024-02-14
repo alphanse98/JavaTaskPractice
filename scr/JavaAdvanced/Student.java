@@ -16,17 +16,20 @@ public class Student {
 
     public  Student(int rollNo, String name, int age) throws AgeNotWithinRangeException {
 
+        // check age limits
         if (age < 15 || age > 21) {
             throw new AgeNotWithinRangeException("Age should be between 15 and 21");
         }
 
+//         check age name
         if (!isValidName(name)) {
             throw new NameNotValidException("Name should not contain numbers or special symbols");
         }
+
         this.rollNo = rollNo;
         this.name = name;
         this.age = age;
-        System.out.println("working");
+        System.out.println("Student added successfully");
     }
 }
 
@@ -42,11 +45,26 @@ class  NameNotValidException  extends Exception{
     }
 }
 
+//validate name
 public boolean isValidName(String name) {
 
     return name.matches("[a-zA-Z\\s]+"); // Using regular expression to check if name contains only alphabets and spaces
 }
 
+
+//output
+
+//case 1
+//input =  new Student(1,"alphanse@123",20)
+// output = Name should not contain numbers or special symbols
+
+//case 2
+//input =  new Student(2,"alphanse",10)
+// output = Age should be between 15 and 21
+
+//case 3
+//input =  new Student(3,"alphanse",20)
+// output = Student added successfully
 
 
 

@@ -9,11 +9,9 @@ public class HashMapStudent {
         // add Student list with grade
         addStudent("Alphanse",9);
         addStudent("Alice",7);
-        addStudent("John",8);
-        addStudent("Bob",6);
 
         //remove a student
-        removeStudent("Bob");
+        removeStudent("Alice");
 
         // Display up a student's grade by name.
         displayStudentGrade("Alphanse");
@@ -22,15 +20,24 @@ public class HashMapStudent {
     // Method to add a new student
     public static void addStudent(String name, int grade) {
         StudentGradeList.put(name, grade);
+        System.out.println( name + " Student added ");
     }
 
     //remove a student
     public static  void removeStudent(String name){
         StudentGradeList.remove(name);
+        System.out.println(name + " Student removed ");
     }
 
 //    Display up a student's grade by name.
     public static void displayStudentGrade( String name){
-        System.out.println(StudentGradeList.get(name));
+        System.out.println(name +" Student grade is "+StudentGradeList.get(name));
     }
 }
+
+//output
+
+//Alphanse Student added
+//Alice Student added
+//Alice Student removed
+//Alphanse Student grade is 9

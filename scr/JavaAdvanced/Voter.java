@@ -5,7 +5,8 @@ package JavaAdvanced;
 public class Voter {
     public static void main(String[] args) throws AgeNotWithinRangeException {
         // Creating a Voter object
-        Voter voter = new Voter (1, "John Doe", 10);
+        Voter voter = new Voter (1, "John Doe", 19);
+        Voter voter2 = new Voter (2, "ram", 10);
 
         // Printing details of the voter
         System.out.println("Voter ID: " + voter.voterId);
@@ -26,3 +27,21 @@ public class Voter {
         this.age = age;
     }
 }
+
+//case 1<---------------------------------------------------->
+
+//(input)
+//Voter (1, "John Doe", 10)
+
+//(out put)
+// Voter ID : 1
+//Name : John Doe
+//Age: 19
+
+//case 2 <---------------------------------------------------->
+
+//(input)
+//Voter (2, "ram", 10)
+
+//(out put)
+//" Invalid age for voter"

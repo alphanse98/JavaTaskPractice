@@ -19,12 +19,12 @@ public class StackData {
     public  static  void pushing(){
         stackDatas.push(10);
         stackDatas.push(5);
-        stackDatas.push(7);
     }
 
     //popping elements from the stack
     public static  void popping(){
         stackDatas.pop();
+        System.out.println("Removed last Element");
     }
 
     //checking if the Stack is empty
@@ -36,3 +36,23 @@ public class StackData {
         }
     }
 }
+
+//case 1<---------------------------------------------------->
+
+//(input)
+//stackDatas.push(10);
+// stackDatas.push(5);
+
+//(out put)
+//Removed last Element
+// Stack is not empty
+
+
+//case 2 <---------------------------------------------------->
+
+//(input)
+//stackDatas.push(5);
+
+//(out put)
+//Removed last Element
+//Stack is empty

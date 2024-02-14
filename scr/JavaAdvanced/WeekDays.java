@@ -36,3 +36,14 @@ public ArrayIndexOutOfBoundsException( String message){
     super(message);
 }
 }
+
+//out put
+
+// case 1
+//Enter the number between 0 to 6 for display a day : 1
+//day name is = Monday
+
+// case 2
+//Enter the number between 0 to 6 for display a day : 10
+//invalid number Select the number between 0 to 6
+
