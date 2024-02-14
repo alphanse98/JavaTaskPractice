@@ -31,7 +31,7 @@ public class Voter {
 //case 1<---------------------------------------------------->
 
 //(input)
-//Voter (1, "John Doe", 10)
+//Voter (1, "John Doe", 19)
 
 //(out put)
 // Voter ID : 1

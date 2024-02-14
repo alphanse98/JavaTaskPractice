@@ -21,7 +21,7 @@ public class Student {
             throw new AgeNotWithinRangeException("Age should be between 15 and 21");
         }
 
-//         check age name
+//         check  name
         if (!isValidName(name)) {
             throw new NameNotValidException("Name should not contain numbers or special symbols");
         }
@@ -33,12 +33,14 @@ public class Student {
     }
 }
 
+//Age exception
 class  AgeNotWithinRangeException extends Exception{
     public AgeNotWithinRangeException( String message){
         super(message);
     }
 }
 
+//Name exception
 class  NameNotValidException  extends Exception{
     public NameNotValidException ( String message){
         super(message);
@@ -47,7 +49,6 @@ class  NameNotValidException  extends Exception{
 
 //validate name
 public boolean isValidName(String name) {
-
     return name.matches("[a-zA-Z\\s]+"); // Using regular expression to check if name contains only alphabets and spaces
 }
 
