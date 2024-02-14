@@ -1,5 +1,7 @@
 package JavaAdvanced;
-
+//Q2. Create a class Voter(voterId, name, age) with parameterized constructor.
+//The parameterized constructor should throw a checked exception if age is less than 18.
+//The message of exception is "invalid age for voter "
 public class Voter {
     public static void main(String[] args) throws AgeNotWithinRangeException {
         // Creating a Voter object
