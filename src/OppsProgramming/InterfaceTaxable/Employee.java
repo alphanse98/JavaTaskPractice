@@ -11,6 +11,14 @@ public class Employee implements Taxable {
         this.salary = salary;
     }
 
+    Employee(){
+
+    }
+
+    public static void main(String[] args) {
+        System.out.print("salary tax is = ");
+    }
+
     @Override
     public void calcTax(){
         double taxAmount = salary * incomeTax;

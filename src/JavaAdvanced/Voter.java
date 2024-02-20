@@ -13,6 +13,8 @@ public class Voter {
         System.out.println("Name: " + voter.name);
         System.out.println("Age: " + voter.age);
     }
+
+
     int voterId;
     String name;
     int age;

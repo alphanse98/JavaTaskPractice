@@ -7,14 +7,18 @@ package JavaAdvanced;
 //• If the age of the student is not between 15 and 21 then generate a user-defined exception "AgeNotWithinRangeException".
 //If a name contains numbers or special symbols, raise exception "NameNotValidException". Define the two exception classes.
 public class Student {
-    public  static  void main(String[] args) throws AgeNotWithinRangeException {
+    public  static  void main(String[] args) throws Exception {
         Student obj = new Student(1,"alphanse",20);
     }
     int rollNo;
     String name;
     int age;
 
-    public  Student(int rollNo, String name, int age) throws AgeNotWithinRangeException {
+    public boolean isValidName(String name) {
+        return name.matches("[a-zA-Z\\s]+"); // Using regular expression to check if name contains only alphabets and spaces
+    }
+
+    public  Student(int rollNo, String name, int age) throws AgeNotWithinRangeException, Exception {
 
         // check age limits
         if (age < 15 || age > 21) {
@@ -48,9 +52,7 @@ class  NameNotValidException  extends Exception{
 }
 
 //validate name
-public boolean isValidName(String name) {
-    return name.matches("[a-zA-Z\\s]+"); // Using regular expression to check if name contains only alphabets and spaces
-}
+
 
 
 //output

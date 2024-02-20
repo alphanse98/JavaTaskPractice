@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffd3acfb-3afc-4380-a375-08db7136d9f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/javastream/Agecalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javastream/checkstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javastream/studentsnames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javastream/uppercase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/JavaAdvanced/AgeNotWithinRangeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/JavaAdvanced/ArrayIndexOutOfBoundsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/JavaAdvanced/HashMapStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/JavaAdvanced/NameNotValidException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/JavaAdvanced/StackData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/JavaAdvanced/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/JavaAdvanced/Voter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/JavaAdvanced/WeekDays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/OppsProgramming/Books.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/OppsProgramming/InterfaceTaxable/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/OppsProgramming/InterfaceTaxable/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/OppsProgramming/InterfaceTaxable/Taxable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/OppsProgramming/InterfaceTaxable/Xyz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/OppsProgramming/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/branching_and_looping/Four_discount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/branching_and_looping/NumberPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/branching_and_looping/Trhee_smallestNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/branching_and_looping/Two_reverseSting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/branching_and_looping/taskOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/oops_in_java/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/oops_in_java/One_displayNameAndAge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/oops_in_java/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/oops_in_java/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/oops_in_java/Tree_displayBalance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task/oops_in_java/XYZ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/JavaAdvanced/HashMapStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAdvanced/HashMapStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/JavaAdvanced/StackData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAdvanced/StackData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/JavaAdvanced/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAdvanced/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/JavaAdvanced/Voter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAdvanced/Voter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/JavaAdvanced/WeekDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAdvanced/WeekDays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/OppsProgramming/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OppsProgramming/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/OppsProgramming/InterfaceTaxable/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OppsProgramming/InterfaceTaxable/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/OppsProgramming/InterfaceTaxable/InterfaceTaxable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OppsProgramming/InterfaceTaxable/InterfaceTaxable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/OppsProgramming/InterfaceTaxable/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OppsProgramming/InterfaceTaxable/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/OppsProgramming/InterfaceTaxable/Xyz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OppsProgramming/InterfaceTaxable/Xyz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/branching_and_looping/Four_discount.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/branching_and_looping/Four_discount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/branching_and_looping/Four_discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/branching_and_looping/Four_discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/branching_and_looping/NumberPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/branching_and_looping/NumberPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/branching_and_looping/NumberPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/branching_and_looping/NumberPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/branching_and_looping/Trhee_smallestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/branching_and_looping/Trhee_smallestNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/branching_and_looping/Two_reverseSting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/branching_and_looping/Two_reverseSting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/branching_and_looping/taskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/branching_and_looping/taskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/oops_in_java/One_displayNameAndAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oops_in_java/One_displayNameAndAge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/oops_in_java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oops_in_java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/oops_in_java/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oops_in_java/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/oops_in_java/Tree_displayBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oops_in_java/Tree_displayBalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ccFJL9msyHakkW52wKCtMrfqW0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Agecalculator.executor": "Run",
+    "Application.Library.executor": "Run",
+    "Application.Student.executor": "Run",
+    "Application.Voter.executor": "Run",
+    "Application.checkstrings.executor": "Run",
+    "Application.studentsnames.executor": "Run",
+    "Application.uppercase.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/java practice/JavaTaskPractice"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Agecalculator">
+    <configuration name="Agecalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javastream.Agecalculator" />
+      <module name="JavaTaskPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javastream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OppsProgramming.Library" />
+      <module name="JavaTaskPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OppsProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javastream.checkstrings" />
+      <module name="JavaTaskPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javastream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="studentsnames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javastream.studentsnames" />
+      <module name="JavaTaskPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javastream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uppercase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javastream.uppercase" />
+      <module name="JavaTaskPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javastream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Agecalculator" />
+        <item itemvalue="Application.studentsnames" />
+        <item itemvalue="Application.checkstrings" />
+        <item itemvalue="Application.uppercase" />
+        <item itemvalue="Application.Library" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffd3acfb-3afc-4380-a375-08db7136d9f0" name="Changes" comment="" />
+      <created>1708402888364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708402888364</updated>
+    </task>
+    <servers />
+  </component>
+</project>
